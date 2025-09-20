@@ -18,8 +18,8 @@ export default function Head() {
         content="Explore my projects, learn about me, and get in touch. Passionate about tech and creativity."
       />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://your-vercel-link.vercel.app" />
-      <meta property="og:image" content="https://your-vercel-link.vercel.app/hero.jpg" />
+      <meta property="og:url" content="courage-portfolio-five.vercel.app" />
+      <meta property="og:image" content="courage-portfolio-five.vercel.app" />
 
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />
@@ -28,7 +28,7 @@ export default function Head() {
         name="twitter:description"
         content="Explore my projects, learn about me, and get in touch. Passionate about tech and creativity."
       />
-      <meta name="twitter:image" content="https://your-vercel-link.vercel.app/hero.jpg" />
+      <meta name="twitter:image" content="courage-portfolio-five.vercel.app" />
     </>
   );
 }
