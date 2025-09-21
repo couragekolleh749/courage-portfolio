@@ -1,35 +1,40 @@
 export default function Head() {
   return (
     <>
-      {/* Basic SEO */}
       <title>Courage M. Kolleh Jr | Portfolio</title>
       <meta
         name="description"
-        content="Personal portfolio of Courage M. Kolleh Jr — Aspiring Developer, Designer, and Creative Thinker. Explore my projects, resume, and contact me."
+        content="Official portfolio of Courage M. Kolleh Jr — U.S. Army servicemember, tech enthusiast, and creator. Explore my projects, resume, and contact information."
       />
-      <meta name="keywords" content="Courage Kolleh, Developer, Portfolio, Next.js, Liberia" />
-      <meta name="author" content="Courage M. Kolleh Jr" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta charSet="UTF-8" />
 
-      {/* Open Graph (Facebook, WhatsApp, LinkedIn) */}
+      {/* Google Verification */}
+      <meta
+        name="google-site-verification"
+        content="lnuGfw3s93mXRYup1eLm7FEJzReZhtT-awsZLx-pNVM"
+      />
+
+      {/* Open Graph for Social Media */}
       <meta property="og:title" content="Courage M. Kolleh Jr | Portfolio" />
       <meta
         property="og:description"
-        content="Explore my projects, learn about me, and get in touch. Passionate about tech and creativity."
+        content="Explore Courage M. Kolleh Jr’s projects, experience, and contact details. Dedicated to tech, creativity, and service."
+      />
+      <meta
+        property="og:image"
+        content="https://courage-portfolio-five.vercel.app/hero.jpg"
+      />
+      <meta
+        property="og:url"
+        content="https://courage-portfolio-five.vercel.app/"
       />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="courage-portfolio-five.vercel.app" />
-      <meta property="og:image" content="courage-portfolio-five.vercel.app" />
 
-      {/* Twitter Card */}
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Courage M. Kolleh Jr | Portfolio" />
-      <meta
-        name="twitter:description"
-        content="Explore my projects, learn about me, and get in touch. Passionate about tech and creativity."
-      />
-      <meta name="twitter:image" content="courage-portfolio-five.vercel.app" />
+      {/* Favicon */}
+      <link rel="icon" href="/favicon.ico" />
     </>
   );
 }
+
 
