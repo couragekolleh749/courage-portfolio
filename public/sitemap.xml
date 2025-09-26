@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Homepage -->
   <url>
     <loc>https://courage-portfolio-five.vercel.app/</loc>
-    <lastmod>2025-09-20</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2025-09-25</lastmod>
     <priority>1.0</priority>
   </url>
+
+  <!-- Projects -->
   <url>
-    <loc>https://courage-portfolio-five.vercel.app/#about</loc>
+    <loc>https://courage-portfolio-five.vercel.app/projects</loc>
+    <lastmod>2025-09-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://courage-portfolio-five.vercel.app/about</loc>
+    <lastmod>2025-09-25</lastmod>
     <priority>0.8</priority>
   </url>
+
+  <!-- Contact -->
   <url>
-    <loc>https://courage-portfolio-five.vercel.app/#projects</loc>
-    <priority>0.8</priority>
+    <loc>https://courage-portfolio-five.vercel.app/contact</loc>
+    <lastmod>2025-09-25</lastmod>
+    <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://courage-portfolio-five.vercel.app/#contact</loc>
-    <priority>0.8</priority>
-  </url>
+
 </urlset>
+

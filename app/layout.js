@@ -4,19 +4,19 @@ import "./globals.css";
 export const metadata = {
   title: "Courage M. Kolleh Jr | Portfolio",
   description:
-    "Welcome to the personal portfolio of Courage M. Kolleh Jr — showcasing my projects, skills, and ways to get in touch. Built with Next.js and deployed on Vercel.",
+    "Welcome to the personal portfolio of Courage M. Kolleh Jr — showcasing my projects, skills, education, and faith journey. Built with Next.js and deployed on Vercel.",
   openGraph: {
     title: "Courage M. Kolleh Jr | Portfolio",
     description:
-      "Explore my portfolio — projects, skills, and contact details. Let's connect!",
+      "Explore my portfolio — projects, skills, education, faith, and ways to connect.",
     url: "https://courage-portfolio-five.vercel.app",
     siteName: "Courage M. Kolleh Jr Portfolio",
     images: [
       {
-        url: "/hero.jpg", // replace with a good preview image from your public folder
+        url: "/hero.jpg", // ✅ make sure hero.jpg exists in public folder
         width: 1200,
         height: 630,
-        alt: "Courage M. Kolleh Jr Portfolio",
+        alt: "Courage M. Kolleh Jr Portfolio Preview",
       },
     ],
     locale: "en_US",
@@ -26,7 +26,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Courage M. Kolleh Jr | Portfolio",
     description:
-      "Discover Courage M. Kolleh Jr's projects, experience, and contact information.",
+      "Discover Courage M. Kolleh Jr's projects, education, and journey of faith.",
     images: ["/hero.jpg"],
   },
 };
@@ -41,11 +41,15 @@ export default function RootLayout({ children }) {
           content="lnuGfw3s93mXRYup1eLm7FEJzReZhtT-awsZLx-pNVM"
         />
 
-        {/* ✅ Favicon (optional) */}
+        {/* ✅ Favicon */}
         <link rel="icon" href="/favicon.ico" />
 
         {/* ✅ Basic SEO */}
         <meta name="author" content="Courage M. Kolleh Jr" />
+        <meta
+          name="keywords"
+          content="Courage Kolleh, portfolio, cybersecurity, software engineering, US Army, projects, Next.js, web developer, Christian, Freedomite"
+        />
         <meta name="robots" content="index, follow" />
 
         {/* ✅ Mobile Optimization */}
@@ -55,4 +59,5 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
 
