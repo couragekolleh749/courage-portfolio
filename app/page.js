@@ -126,10 +126,10 @@ export default function Home() {
           {[
             "family.jpg",
             "church1.jpg",
-            "gradaute1.jpg",
+            "graduate1.jpg",
             "courage.jpg",
             "graduate.jpg",
-            "gradma.jpg",
+            "grandma.jpg",
             "hero.jpg",
             "lover.jpg",
             "mother1.jpg"
