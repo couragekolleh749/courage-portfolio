@@ -101,12 +101,12 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-4">💻 Projects</h2>
         <ul className="list-disc pl-6 space-y-2">
           <li>
-            <a href="#" className="text-blue-700 hover:underline" target="_blank">
+            <a href="https://nationalfreedompentecostalchurch.vercel.app/" className="text-blue-700 hover:underline" target="_blank">
               National Freedom Pentecostal Church
             </a>
           </li>
           <li>
-            <a href="https://my-artist-portfolio.vercel.app"
+            <a href="https://jzyno-portfolio-eight.vercel.app/"
                className="text-blue-700 hover:underline" target="_blank">
                Jzyno Artist Portfolio
             </a>
