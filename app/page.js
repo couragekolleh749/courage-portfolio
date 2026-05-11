@@ -48,7 +48,7 @@ export default function Home() {
         <img src="/hero.jpg" alt="Courage M. Kolleh Jr" className="w-40 h-40 rounded-full shadow-lg mb-4" />
         <h2 className="text-4xl font-bold">Hi, I’m Courage M. Kolleh Jr</h2>
         <p className="mt-2 text-lg text-gray-200">
-          Aspiring Developer | Creative Thinker | Tech Enthusiast
+          Aspiring Developer | Creative Thinker | Tech Enthusiast |US Army
         </p>
       </section>
 
@@ -64,7 +64,7 @@ export default function Home() {
           I come from a close-knit family with 5 siblings and over 10 cousins.
           Family, faith, and resilience have shaped who I am today. Currently,
           I live in the United States of America, where I am pursuing
-          Cybersecurity and Software Engineering while preparing to join the
+          BSC in Computer Science while Serving  the
           U.S. Army to serve and give back to my country.
         </p>
         <p className="leading-relaxed mb-4">
